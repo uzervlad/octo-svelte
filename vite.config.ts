@@ -7,13 +7,13 @@ export default defineConfig({
     sveltekit(),
     ViteImageOptimizer({
       png: {
-        quality: 60,
+        quality: 30,
       },
       jpg: {
-        quality: 60,
+        quality: 30,
       },
       jpeg: {
-        quality: 60,
+        quality: 30,
       },
     }),
   ],
