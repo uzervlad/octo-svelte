@@ -16,19 +16,20 @@
 
 <div class="projects">
   <div class="projects-grid">
-    <!-- <div class="project">
-      <img class="gray" src="/projects/osumap.png" data-title="osu! Russia Map" alt="osu! Russia Map">
+    <div class="project">
+      <img src="/projects/osuworld.png" data-title="osu! Russia Map" alt="osu! Russia Map">
       <h2>osu! World</h2>
-      <div class="links disabled">
+      <div class="links">
         <a href="https://osuworld.octo.moe/" target="_blank">Website</a>
+        <a href="https://discord.gg/S3z5zyJsgu" target="_blank">Discord</a>
       </div>
       <p>
-        An interactive map of all regions of multiple countries with their respective leaderboards for every game mode
+        A community-driven project whose task is to compile region-based leaderboards
       </p>
       <p>
-        A full rewrite of <code>osu! Russia Map</code> with support for multiple countries
+        A full rewrite of <code>osu! Russia Map</code>'s codebase with support for multiple countries
       </p>
-    </div> -->
+    </div>
 
     <div class="project">
       <img src="/projects/osumap.png" data-title="osu! Russia Map" alt="">
