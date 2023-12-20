@@ -32,7 +32,7 @@
     </div>
 
     <div class="project">
-      <img src="/projects/osumap.png" data-title="osu! Russia Map" alt="">
+      <img class="gray" src="/projects/osumap.png" data-title="osu! Russia Map" alt="">
       <h2>osu! Russia Map</h2>
       <div class="links">
         <a href="https://osumap.ru/" target="_blank">Website</a>
@@ -41,7 +41,7 @@
         An interactive map of all regions of Russia with their respective leaderboards for every game mode
       </p>
       <p>
-        Although currently it only supports one country, a second version with support for multiple countries is planned
+        Has been replaced by osu! World
       </p>
     </div>
 
@@ -122,7 +122,6 @@
         img {
           width: 270px;
           margin-bottom: $image-offset;
-          cursor: zoom-in;
           border-radius: 5px;
 
           @media screen and (max-width: 1500px) {
