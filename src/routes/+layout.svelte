@@ -1,8 +1,13 @@
 <script>
   import sub from '../lib/sub';
   import main from '../lib/isMain';
+
+  let date = new Date();
+  let [background, link, opacity] = date.getHours() > 12
+    ? ["ninomae_inanis_2.jpg", "https://twitter.com/ninomaeinanis/status/1737271493179183261", 40]
+    : ["ninomae_inanis.jpg", "https://twitter.com/ninomaeinanis/status/1501351699314741250", 60];
 </script>
-<div class="bg"></div>
+<div class="bg" style={`background-image: url(/${background}); opacity: ${opacity}%;`}></div>
 <div class="menu">
   <a href="/">Home</a>
   <a href="/projects">Projects</a>
@@ -14,7 +19,7 @@
 
 <slot></slot>
 
-<a href="https://twitter.com/ninomaeinanis/status/1501351699314741250" target="_blank" class="credit">
+<a href={link} target="_blank" class="credit">
   Artwork credit
 </a>
 
@@ -33,7 +38,7 @@
     }
   }
 
-  $background: #110D17;
+  $background: #16131b;
   $text: #665879;
 
   :global(*) {
@@ -75,7 +80,7 @@
     width: 100%;
     height: 100%;
 
-    background-image: url(/ninomae_inanis.jpg);
+    // background-image: url(/ninomae_inanis_2.jpg);
     background-position: 69% center;
     background-size: cover;
 
