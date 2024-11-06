@@ -8,7 +8,7 @@
 
 <script lang="ts">
   import Fa from 'svelte-fa';
-  import { faGithub, faDiscord, faVk, faYoutube, faTwitch } from '@fortawesome/free-brands-svg-icons';
+  import { faGithub, faDiscord, faYoutube, faTwitch, faBluesky, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
   import sub from '../lib/sub';
   $sub = 'Praise the tako lord!';
@@ -31,25 +31,33 @@
       link: 'https://discord.com/users/194483019799724032',
     },
     {
-      color: '#0077ff',
-      icon: faVk,
-      name: "VK",
-      link: 'https://vk.com/octopussx',
-      size: "4x",
-    },
-    {
       color: '#ff0000',
       icon: faYoutube,
       name: "YouTube",
       link: 'https://www.youtube.com/@octopussx',
+      size: "3.3x",
     },
     {
       color: '#a970ff',
       icon: faTwitch,
       name: "Twitch",
       link: 'https://twitch.tv/octopussx',
-      size: "4x",
+      size: "3.7x",
     },
+    {
+      color: '#0886fe',
+      icon: faBluesky,
+      name: "Bluesky",
+      link: 'https://bsky.app/profile/octo.moe',
+      size: "3.3x",
+    },
+    {
+      color: '#1da1f2',
+      icon: faTwitter,
+      name: "Twitter",
+      link: "https://x.com/octopussx_osu",
+      size: "3.8x",
+    }
   ];
 </script>
 
