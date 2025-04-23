@@ -27,6 +27,7 @@
       name: "Deko's Temptation Tournament",
       url: "https://osu.ppy.sh/community/forums/topics/1595854",
       cover: "https://i.ppy.sh/747a3801fb01e99d2a3ce4ab1959ba584ffc28d4/68747470733a2f2f696d6775722d617263686976652e7070792e73682f646973636f72642f3835363736333939313031353239323935382d3938353630323037323436363538333536322d756e6b6e6f776e2e706e67",
+      date: "July 2022 - August 2022",
       team: {
         name: "simp4ravexi",
         members: [
@@ -53,6 +54,7 @@
       name: "Lazer Community Showdown",
       url: "https://osu.ppy.sh/community/forums/topics/2044830",
       cover: "https://i.ppy.sh/e6f1873d6b958a32d3eef7c74f71bb0ce4412063/68747470733a2f2f6467656973742e732d756c2e65752f7744634b674a464d",
+      date: "April 2025 - TBF",
       team: {
         name: "@sniffa rates when",
         members: [
@@ -89,6 +91,8 @@
       <img src={tournament.cover} alt="" class="bg">
   
       <a href={tournament.url} class="name">{tournament.name}</a>
+
+      <span>{tournament.date}</span>
 
       <div class="content">
         <div class="team">
