@@ -76,7 +76,7 @@
           {
             id: 17604898,
             username: "Tepe6oHbka",
-            country: "RU",
+            country: "BY",
           },
         ],
       },
