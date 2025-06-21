@@ -35,7 +35,7 @@
       <img class="gray" src="/projects/osumap.png" data-title="osu! Russia Map" alt="">
       <h2>osu! Russia Map</h2>
       <div class="links">
-        <a href="https://osumap.ru/" target="_blank">Website</a>
+        <a class="disabled" target="_blank" title="Domain was bought out by some shady folks">Website</a>
       </div>
       <p>
         An interactive map of all regions of Russia with their respective leaderboards for every game mode
@@ -160,8 +160,13 @@
 
             text-decoration: transparentize(lighten($text, 12%), 0.4) underline;
 
-            &:hover {
+            &:hover:not(.disabled) {
               color: lighten($text, 16%);
+            }
+
+            &.disabled {
+              text-decoration-style: dotted;
+              cursor: not-allowed;
             }
           }
         }
