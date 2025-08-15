@@ -35,7 +35,7 @@
       <img class="gray" src="/projects/osumap.png" data-title="osu! Russia Map" alt="">
       <h2>osu! Russia Map</h2>
       <div class="links">
-        <a class="disabled" target="_blank" title="Domain was bought out by some shady folks">Website</a>
+        <span class="disabled" title="Domain was bought out by some shady folks">Website</span>
       </div>
       <p>
         An interactive map of all regions of Russia with their respective leaderboards for every game mode
@@ -46,7 +46,7 @@
     </div>
 
     <div class="project">
-      <img src="/projects/osubot.png" data-title="osu! bot" alt="">
+      <img class="gray" src="/projects/osubot.png" data-title="osu! bot" alt="">
       <h2>osu! bot</h2>
       <div class="links">
         <a href="https://vk.com/sosubot" target="_blank">Website</a>
@@ -153,7 +153,7 @@
             }
           }
 
-          a {
+          span, a {
             color: lighten($text, 8%);
 
             transition: color ease .2s;
