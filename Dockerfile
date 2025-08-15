@@ -1,9 +1,16 @@
-FROM oven/bun:1 AS base
-WORKDIR /usr/app
+FROM oven/bun:1.2.20-alpine AS builder
+WORKDIR /app
 
-COPY build /usr/app
-EXPOSE 3131/tcp
+COPY . /app/
 
-ENV PORT=3131
+RUN bun i
+RUN bun run build
+
+FROM oven/bun:1.2.20-alpine
+
+WORKDIR /app
+
+COPY --from=builder /app/build /app
+EXPOSE 3000
 
 ENTRYPOINT [ "bun", "run", "index.js" ]
