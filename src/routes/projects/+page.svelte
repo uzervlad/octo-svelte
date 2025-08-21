@@ -17,7 +17,7 @@
 <div class="projects">
   <div class="projects-grid">
     <div class="project">
-      <img src="/projects/osuworld.png" data-title="osu! Russia Map" alt="osu! Russia Map">
+      <img src="/projects/osuworld.webp" data-title="osu! Russia Map" alt="osu! Russia Map">
       <h2>osu! World</h2>
       <div class="links">
         <a href="https://osuworld.octo.moe/" target="_blank">Website</a>
@@ -32,7 +32,7 @@
     </div>
 
     <div class="project">
-      <img class="gray" src="/projects/osumap.png" data-title="osu! Russia Map" alt="">
+      <img class="gray" src="/projects/osumap.webp" data-title="osu! Russia Map" alt="">
       <h2>osu! Russia Map</h2>
       <div class="links">
         <span class="disabled" title="Domain was bought out by some shady folks">Website</span>
@@ -46,7 +46,7 @@
     </div>
 
     <div class="project">
-      <img class="gray" src="/projects/osubot.png" data-title="osu! bot" alt="">
+      <img class="gray" src="/projects/osubot.webp" data-title="osu! bot" alt="">
       <h2>osu! bot</h2>
       <div class="links">
         <a href="https://vk.com/sosubot" target="_blank">Website</a>

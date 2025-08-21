@@ -4,8 +4,8 @@
 
   let date = new Date();
   let [background, link, opacity] = date.getHours() > 12
-    ? ["ninomae_inanis_2.jpg", "https://twitter.com/ninomaeinanis/status/1737271493179183261", 40]
-    : ["ninomae_inanis.jpg", "https://twitter.com/ninomaeinanis/status/1501351699314741250", 60];
+    ? ["ninomae_inanis_2.webp", "https://twitter.com/ninomaeinanis/status/1737271493179183261", 40]
+    : ["ninomae_inanis.webp", "https://twitter.com/ninomaeinanis/status/1501351699314741250", 60];
 </script>
 <div class="bg" style={`background-image: url(/${background}); opacity: ${opacity}%;`}></div>
 <div class="menu">
